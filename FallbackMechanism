@@ -1,0 +1,9 @@
+# Fallback logic for quantum-resistant authentication
+function authenticate_user(user::User, signature::String)
+    try
+        verify_quantum_signature(signature, user.message)
+    catch
+        # Fall back to classical authentication
+        verify_classical_signature(signature, user.message)
+    end
+end
