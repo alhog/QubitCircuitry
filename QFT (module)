@@ -1,0 +1,10 @@
+module QuantumFourierTransform
+
+# Implement the QFT
+function quantum_fourier_transform(state::AbstractQuantumState)
+    # Apply Hadamard gates and controlled-phase gates
+    # ...
+    return transformed_state
+end
+
+end  # module QuantumFourierTransform
