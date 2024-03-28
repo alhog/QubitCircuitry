@@ -1,6 +1,6 @@
 # QubitCircuitry
 Quantum circuitry for qubit states in geometric black box 
-Certainly! Let's delve deeper into enhancing our module with these concepts. Each feature will enrich our unified system, bridging classical and quantum realms. 🌐🪄
+Certainly! Let's delve deeper into enhancing our module with these concepts. Each feature will enrich our unified system, bridging classical and quantum realms. 🇺🇸
 
 ## **Network Bridges**
 
