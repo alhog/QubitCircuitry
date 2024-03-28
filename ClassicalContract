@@ -1,0 +1,4 @@
+# Classical Token Contract
+contract OldTokenContract
+    # Existing token functionality
+end
