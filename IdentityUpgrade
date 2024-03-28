@@ -1,0 +1,11 @@
+# Classical Identity Contract
+contract OldIdentityContract
+    # Existing identity functionality
+end
+
+# Quantum Identity Contract
+contract NewQuantumIdentityContract
+    # Quantum-safe signatures, lattice-based keys
+    # Backward-compatible methods for classical users
+end
+
