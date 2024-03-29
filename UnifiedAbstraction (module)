@@ -1,6 +1,7 @@
-module NetworkAbstraction
+module QuantumNetworkAbstraction
 
-using QuantumInformation
+import ..NetworkAbstraction: AbstractNetwork
+import QuantumInformation
 import QuantumNoiseMitigation
 import ShorCode
 import SteaneCode
@@ -9,36 +10,44 @@ import QuantumLayer
 import QCARules
 import QuantumPhaseEstimation
 
-# Define an abstract interface for interacting with different networks
-abstract type AbstractNetwork end
+"""
+    AbstractQuantumExecutor
 
-# Implement specific network connections (e.g., Ethereum, Binance Smart Chain)
-struct EthereumNetwork <: AbstractNetwork
-    # Fields specific to Ethereum
+An abstract interface for executing quantum circuits on different platforms or backends.
+"""
+abstract type AbstractQuantumExecutor end
+
+"""
+    BlockchainQuantumExecutor <: AbstractQuantumExecutor
+
+A concrete implementation of the `AbstractQuantumExecutor` interface for executing quantum circuits on a blockchain network.
+"""
+struct BlockchainQuantumExecutor <: AbstractQuantumExecutor
+    network::AbstractNetwork
 end
 
-struct BinanceSmartChain <: AbstractNetwork
-    # Fields specific to Binance Smart Chain
-end
+"""
+    execute_circuit(executor::AbstractQuantumExecutor, circuit::AbstractQuantumCircuit)
 
-# Define functions for deploying and interacting with smart contracts
-function deploy_contract(network::AbstractNetwork, contract_code::String)
-    # Deploy the contract on the specified network
-    # ...
-    return contract_address
-end
+Execute a quantum circuit using the specified quantum executor.
 
-function interact_with_contract(network::AbstractNetwork, contract_address::String, function_name::String, args...)
-    # Interact with a deployed contract (call functions, send transactions)
-    # ...
-    return result
-end
+# Arguments
+- `executor::AbstractQuantumExecutor`: The executor to use for executing the quantum circuit.
+- `circuit::AbstractQuantumCircuit`: The quantum circuit to be executed.
 
-# Extend the network abstraction to include quantum circuits
-function interact_with_quantum_circuit(network::AbstractNetwork, circuit::AbstractQuantumCircuit)
-    # Execute the quantum circuit on the specified network
+# Returns
+- The result of executing the quantum circuit, or an error message if the execution fails.
+"""
+function execute_circuit(executor::AbstractQuantumExecutor, circuit::AbstractQuantumCircuit)
+    # Execute the quantum circuit using the specified executor
     # ...
     return quantum_result
 end
 
-end  # module NetworkAbstraction
+# Example usage
+function interact_with_quantum_circuit(network::AbstractNetwork, circuit::AbstractQuantumCircuit)
+    executor = BlockchainQuantumExecutor(network)
+    return execute_circuit(executor, circuit)
+end
+
+end # module QuantumNetworkAbstraction
