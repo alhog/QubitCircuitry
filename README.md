@@ -113,7 +113,6 @@ The Quasi Ledger envisions a blockchain ecosystem where quantum and classical fe
 - Quantum faucet contract.
 - Bridge classical and quantum realms.
 
-## Conclusion
 
 *The Quasi Ledger invites developers, quantum enthusiasts, and stargazers to explore this cosmic frontier.*
 
