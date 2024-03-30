@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Quasi Ledger** is a visionary concept that unites quantum and classical elements within blockchain networks. It transcends classical limits, introducing quantum tokens, enhanced cryptography, and cosmic oracles. This technical readme provides an in-depth exploration of the Cosmic Ledger, its components, and practical implementation.
+The **Quasi Ledger** is a visionary concept that unites quantum and classical elements within blockchain networks. It transcends classical limits, introducing quantum tokens, enhanced cryptography, and quasi oracles. This technical readme provides an in-depth exploration of the Quasi Ledger, its components, and practical implementation.
 
 ## Table of Contents
 
