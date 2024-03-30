@@ -35,7 +35,7 @@ The **Quasi Ledger** is a visionary concept that unites quantum and classical el
 
 ## Introduction
 
-The Quasi Ledger envisions a blockchain ecosystem where quantum and classical features coexist harmoniously. It introduces quantum tokens, quantum-proof cryptography, and cosmic oracles. This readme explores the concepts, implementation steps, and practical considerations.
+The Quasi Ledger envisions a blockchain ecosystem where quantum and classical features coexist harmoniously. It introduces quantum tokens, quantum-proof cryptography, and unified oracles. This readme explores the concepts, implementation steps, and practical considerations.
 
 ## Concepts
 
@@ -171,6 +171,7 @@ Let's delve deeper into enhancing our module with these concepts. Each feature w
    - Create an API layer that abstracts network-specific details.
    - Developers can call this API for cross-network transfers.
    - Provide consistent endpoints for token transfers and contract interactions.
+   - Oscillatory smart contracts 
 
 ## **Smart Contract Events**
 
@@ -300,7 +301,7 @@ In the heart of the digital ether, the **Geometric Black Box** awaits. Its archi
    - Install dependencies (quantum libraries, network connectors).
 
 2. **Initialize TokenRing**
-   - Create a TokenRing with specified networks (Ethereum, Binance Smart Chain, etc.).
+   - Create a TokenRing with specified networks (Ethereum, Kadena, etc.).
 
 3. **Deploy Contracts**
    - Deploy smart contracts on multiple networks.
@@ -379,8 +380,8 @@ In the heart of the digital ether, the **Geometric Black Box** awaits. Its archi
     - **Smart Contract Integration**: Modify existing supply chain smart contracts to process quantum-derived data. Verify authenticity using quantum proofs.
 
 3. **Quantum-Driven Financial Instruments**:
-    - **Quantum Bonds and Derivatives**: Develop new financial instruments as quantum tokens. Integrate them into existing DeFi protocols.
-    - **Quantum-Resilient Pricing Oracles**: Quantum oracles provide accurate pricing data for DeFi platforms.
+    - **Quantum Bonds and Derivatives**: Develop new financial instruments as quantum tokens. Integrate them into existing protocols.
+    - **Quantum-Resilient Pricing Oracles**: Unified oracles provide accurate pricing data for exchanges.
 
 4. **Quantum-Resilient Identity Systems**:
     - **Quantum-Proof Authentication**: Upgrade existing identity systems with quantum-safe cryptographic algorithms.
@@ -398,7 +399,8 @@ In the heart of the digital ether, the **Geometric Black Box** awaits. Its archi
 
 ## **Contributing**
 
-We welcome contributions! Enhance network support, improve quantum features, or add bridges to our cosmic fabric.
+**We welcome contributions!** 
+Enhance network support, improve quantum features, or add bridges to our quasi fabric.
 
 ## **License**
 
