@@ -1,4 +1,5 @@
-# Quasi Ledger: Bridging Quantum and Classical Realms
+ # Quasi Ledger
+### Bridging Quantum and Classical Realms
 
 ## Overview
 
