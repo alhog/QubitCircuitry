@@ -1,8 +1,8 @@
-# Cosmic Ledger: Bridging Quantum and Classical Realms
+# Quasi Ledger: Bridging Quantum and Classical Realms
 
 ## Overview
 
-The **Cosmic Ledger** is a visionary concept that unites quantum and classical elements within blockchain networks. It transcends classical limits, introducing quantum tokens, enhanced cryptography, and cosmic oracles. This technical readme provides an in-depth exploration of the Cosmic Ledger, its components, and practical implementation.
+The **Quasi Ledger** is a visionary concept that unites quantum and classical elements within blockchain networks. It transcends classical limits, introducing quantum tokens, enhanced cryptography, and cosmic oracles. This technical readme provides an in-depth exploration of the Cosmic Ledger, its components, and practical implementation.
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@ The **Cosmic Ledger** is a visionary concept that unites quantum and classical e
 
 ## Introduction
 
-The Cosmic Ledger envisions a blockchain ecosystem where quantum and classical features coexist harmoniously. It introduces quantum tokens, quantum-proof cryptography, and cosmic oracles. This readme explores the concepts, implementation steps, and practical considerations.
+The Quasi Ledger envisions a blockchain ecosystem where quantum and classical features coexist harmoniously. It introduces quantum tokens, quantum-proof cryptography, and cosmic oracles. This readme explores the concepts, implementation steps, and practical considerations.
 
 ## Concepts
 
@@ -115,7 +115,7 @@ The Cosmic Ledger envisions a blockchain ecosystem where quantum and classical f
 
 ## Conclusion
 
-*The Cosmic Ledger invites developers, quantum enthusiasts, and stargazers to explore this cosmic frontier.*
+*The Quasi Ledger invites developers, quantum enthusiasts, and stargazers to explore this cosmic frontier.*
 
 
 # QubitCircuitry
@@ -125,7 +125,7 @@ Certainly! Let's delve deeper into enhancing our module with these concepts. Eac
 ## **Network Bridges**
 
 1. **Cross-Chain Communication**:
-   - Create bridges between networks (e.g., Ethereum ↔ Binance Smart Chain).
+   - Create bridges between networks (e.g., Ethereum ↔ Kadena).
    - These bridges allow tokens and data to flow seamlessly.
    - Implement cross-chain protocols (e.g., wrapped tokens, atomic swaps).
 
@@ -148,7 +148,7 @@ Certainly! Let's delve deeper into enhancing our module with these concepts. Eac
 ## **Token Locking and Unlocking**
 
 1. **Locking Mechanism**:
-   - Lock tokens on one network (e.g., Ethereum) when transferring to another.
+   - Lock tokens on one network (e.g., Kadena) when transferring to another.
    - Ensure proper security and trust mechanisms during the locking process.
 
 2. **Minting Equivalent Tokens**:
@@ -235,12 +235,12 @@ Certainly! Let's delve deeper into enhancing our module with these concepts. Eac
 
 # Unified Quantum Smart Contract System
 
-Welcome to the Unified Quantum Smart Contract System! Our cosmic architecture blends classical and quantum realms, enabling seamless interactions between smart contracts, quantum circuits, and cryptographic wonders.
+Welcome to the Unified Quantum Smart Contract System! Our quasi architecture blends classical and quantum realms, enabling seamless interactions between smart contracts, quantum circuits, and cryptographic wonders.
 
 ## Features
 
 1. **Network Agnostic**
-   - Execute smart contracts across Ethereum, Binance Smart Chain, and beyond.
+   - Execute smart contracts across Ethereum, Kadena, and beyond.
    - Abstract away network-specific complexities.
 
 2. **Quantum Integration**
